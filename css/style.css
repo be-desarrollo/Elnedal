@@ -1,0 +1,82 @@
+/***** LETRA *****/
+@font-face {
+font-family: 'kievit-book';
+src: url('../font/KIEVIT-2.TTF');
+}
+
+body{text-align: justify; font-size: 20px; background: #E6E7E8; font-family: 'kievit-book', sans-serif;}
+
+/***** FONDO *****/
+.back-home{background: url(../img/fondoazul.jpg); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+.back-send{background: url(../img/fondoazul.jpg); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+/***** TEXTO *****/
+.txt-white{color: #FFF;}
+
+/***** COLOR *****/
+.backTrans{background: #F15A29; opacity: 0.5;}
+
+/***** BOTONES *****/
+.btn-link-1 { width:150px; display: inline-block; height: 50px; margin: 10px 5px; padding: 0 0px; background: transparent; border: 0; font-size: 20px; font-weight: 600; line-height: 48px; color: #fff; border-radius: 5px;  border: 2px solid #F15A29; transition: all .3s; margin-top: 30px;}
+.btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active, .btn-link-2:active:focus,
+.btn-link-1.btn-primary:not(:disabled):not(.disabled):active,
+.btn-link-1.btn-primary:not(:disabled):not(.disabled):active:focus {background: #F15A29; outline: 0;color: #FFF; box-shadow: none; border: 2px solid #FFF;}
+
+
+/***** FORMULARIO *****/
+form{width: 100%; max-width:535px; background: none; margin: 0 auto; padding: 20px;}
+form label{display: block;width: 100%; max-width: 340px;text-align: left;margin:0 auto; font-size: 14px;font-family: 'kievit-book', sans-serif; font-weight: 300; color:#FFF;}
+form input{ -webkit-transition: all 0.2s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;display: block; padding-left:10px;outline:none; border:none;color:#FFF; width: 100%; max-width: 400px; border-radius: 5px; height: 40px; margin:0 auto; margin-bottom: 10px; background: #F15A29; }
+form textarea{padding-top:10px;-webkit-transition: all 0.2s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out; resize:none; display: block;  padding-left:10px;outline:none; border:none;color:#FFF; border-radius: 5px; width: 100%; max-width: 400px; height: 190px; margin:0 auto; margin-top: 20px; background: #F15A29; opacity: 0.5;}
+form input[type="submit"]{font-size:18px;font-weight:300;display: block; padding-left:10px;outline:none; color:#FFF; width: 100%; max-width: 140px; height: 35px; margin:0 auto; margin-bottom: 10px;background:transparent;;border:none;border-radius: 5px; border: 2px solid #F15A29;}
+form input:hover[type="submit"]{background:#F15A29; color:#FFF; border: 2px solid #FFF;}
+form input::placeholder { color: #FFF;}
+form textarea::placeholder { color: #FFF;}
+
+  .sp1x,.sp2x,.sp3x,.sp4x,.sp5x,.sp6x,.sp7x,.sp8x,.sp9x,.sp10x,.sp20x,.sp30x,.sp40x,.sp50x,.sp60x{content:" ";display:inline-block;width:100%;font-size:1em;line-height:0;height:0;border:none;border:0;background-color:none}
+  .sp2x{margin-bottom:.7857142857142857em}
+  .sp3x{margin-bottom:1.1785714285714286em}
+  .sp4x{margin-bottom:1.5714285714285714em}
+  .sp5x{margin-bottom:1.9642857142857142em}
+  .sp6x{margin-bottom:2.357142857142857em}
+  .sp7x{margin-bottom:2.75em}
+  .sp8x{margin-bottom:3.142857142857143em}
+  .sp9x{margin-bottom:3.5357142857142856em}
+  .sp10x{margin-bottom:3.9285714285714284em}
+  .sp20x{margin-bottom:7.857142857142857em}
+  .sp30x{margin-bottom:11.785714285714285em}
+  .sp40x{margin-bottom:15.714285714285714em}
+  .sp50x{margin-bottom:19.642857142857142em}
+  .sp60x{margin-bottom:23.57142857142857em}
+
+    .fnt14 {font-size: 14px;}
+    .fnt15 {font-size: 15px;}
+    .fnt16 {font-size: 16px;}
+    .fnt17 {font-size: 17px;}
+    .fnt18 {font-size: 18px;}
+    .fnt19 {font-size: 19px;}
+    .fnt20 {font-size: 20px;}
+    .fnt21 {font-size: 21px;}
+    .fnt22 {font-size: 22px;}
+    .fnt23 {font-size: 23px;}
+    .fnt24 {font-size: 24px;}
+    .fnt24 {font-size: 24px;}
+    .fnt25 {font-size: 25px;}
+    .fnt26 {font-size: 26px;}
+    .fnt27 {font-size: 27px;}
+    .fnt28 {font-size: 28px;}
+    .fnt29 {font-size: 29px;}
+    .fnt30 {font-size: 30px;}
+    .fnt31 {font-size: 31px;}
+    .fnt32 {font-size: 32px;}
+    .fnt33 {font-size: 33px;}
+    .fnt34 {font-size: 34px;}
+    .fnt35 {font-size: 35px;}
+    .fnt36 {font-size: 36px;}
+    .fnt37 {font-size: 37px;}
+    .fnt38 {font-size: 38px;}
+    .fnt39 {font-size: 39px;}
+    .fnt40 {font-size: 40px;}
+    .fnt50 {font-size: 50px;}
+    .fnt60 {font-size: 60px;}
+    .fnt70 {font-size: 70px;}
+    .fnt80 {font-size: 80px;}
