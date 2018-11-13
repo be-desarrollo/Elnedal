@@ -1,0 +1,23 @@
+
+@media (max-width: 768px){
+
+.box-float {
+
+
+  bottom: 100px;
+  height: 150px;
+  width: 359px;
+  z-index: 100;
+  display: block;
+  margin: auto;
+}
+
+}
+
+@media (max-width: 434px){
+
+.txt-msg {
+  font-size: 40px;
+}
+
+}
