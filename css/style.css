@@ -7,28 +7,28 @@ src: url('../font/KIEVIT-2.TTF');
 body{text-align: justify; font-size: 20px; background: #E6E7E8; font-family: 'kievit-book', sans-serif;}
 
 /***** FONDO *****/
-.back-home{background: url(../img/fondoazul.jpg); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
-.back-send{background: url(../img/fondoazul.jpg); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+.back-home{background: url(../img/Fondonegro.jpg); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+.back-send{background: url(../img/Fondonegro.jpg); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
 /***** TEXTO *****/
 .txt-white{color: #FFF;}
 
 /***** COLOR *****/
-.backTrans{background: #F15A29; opacity: 0.5;}
+.backTrans{background: #ECBF1D; opacity: 0.5;}
 
 /***** BOTONES *****/
-.btn-link-1 { width:150px; display: inline-block; height: 50px; margin: 10px 5px; padding: 0 0px; background: transparent; border: 0; font-size: 20px; font-weight: 600; line-height: 48px; color: #fff; border-radius: 5px;  border: 2px solid #F15A29; transition: all .3s; margin-top: 30px;}
+.btn-link-1 { width:150px; display: inline-block; height: 50px; margin: 10px 5px; padding: 0 0px; background: transparent; border: 0; font-size: 20px; font-weight: 600; line-height: 48px; color: #fff; border-radius: 5px;  border: 2px solid #ECBF1D; transition: all .3s; margin-top: 30px;}
 .btn-link-1:hover, .btn-link-1:focus, .btn-link-1:active, .btn-link-2:active:focus,
 .btn-link-1.btn-primary:not(:disabled):not(.disabled):active,
-.btn-link-1.btn-primary:not(:disabled):not(.disabled):active:focus {background: #F15A29; outline: 0;color: #FFF; box-shadow: none; border: 2px solid #FFF;}
+.btn-link-1.btn-primary:not(:disabled):not(.disabled):active:focus {background: #ECBF1D; outline: 0;color: #FFF; box-shadow: none; border: 2px solid #FFF;}
 
 
 /***** FORMULARIO *****/
 form{width: 100%; max-width:535px; background: none; margin: 0 auto; padding: 20px;}
 form label{display: block;width: 100%; max-width: 340px;text-align: left;margin:0 auto; font-size: 14px;font-family: 'kievit-book', sans-serif; font-weight: 300; color:#FFF;}
-form input{ -webkit-transition: all 0.2s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;display: block; padding-left:10px;outline:none; border:none;color:#FFF; width: 100%; max-width: 400px; border-radius: 5px; height: 40px; margin:0 auto; margin-bottom: 10px; background: #F15A29; }
-form textarea{padding-top:10px;-webkit-transition: all 0.2s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out; resize:none; display: block;  padding-left:10px;outline:none; border:none;color:#FFF; border-radius: 5px; width: 100%; max-width: 400px; height: 190px; margin:0 auto; margin-top: 20px; background: #F15A29; opacity: 0.5;}
-form input[type="submit"]{font-size:18px;font-weight:300;display: block; padding-left:10px;outline:none; color:#FFF; width: 100%; max-width: 140px; height: 35px; margin:0 auto; margin-bottom: 10px;background:transparent;;border:none;border-radius: 5px; border: 2px solid #F15A29;}
-form input:hover[type="submit"]{background:#F15A29; color:#FFF; border: 2px solid #FFF;}
+form input{ -webkit-transition: all 0.2s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;display: block; padding-left:10px;outline:none; border:none;color:#FFF; width: 100%; max-width: 400px; border-radius: 5px; height: 40px; margin:0 auto; margin-bottom: 10px; background: #ECBF1D; }
+form textarea{padding-top:10px;-webkit-transition: all 0.2s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out; resize:none; display: block;  padding-left:10px;outline:none; border:none;color:#FFF; border-radius: 5px; width: 100%; max-width: 400px; height: 190px; margin:0 auto; margin-top: 20px; background: #ECBF1D; opacity: 0.5;}
+form input[type="submit"]{font-size:18px;font-weight:300;display: block; padding-left:10px;outline:none; color:#FFF; width: 100%; max-width: 140px; height: 35px; margin:0 auto; margin-bottom: 10px;background:transparent;;border:none;border-radius: 5px; border: 2px solid #ECBF1D;}
+form input:hover[type="submit"]{background:#ECBF1D; color:#FFF; border: 2px solid #FFF;}
 form input::placeholder { color: #FFF;}
 form textarea::placeholder { color: #FFF;}
 
