@@ -11,6 +11,7 @@ body{text-align: justify; font-size: 20px; background: #E6E7E8; font-family: 'ki
 .back-send{background: url(../img/Fondonegro.jpg); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
 /***** TEXTO *****/
 .txt-white{color: #FFF;}
+.txt-black{color: #000;}
 
 /***** COLOR *****/
 .backTrans{background: #ECBF1D; opacity: 0.8;}
